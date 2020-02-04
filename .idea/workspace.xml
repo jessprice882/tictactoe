@@ -1,16 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4d88712d-1166-44c9-bbee-a70e957db40e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Board.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Game.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Square.js" afterDir="false" />
+    <list default="true" id="4d88712d-1166-44c9-bbee-a70e957db40e" name="Default Changelist" comment="added Feb 4">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,16 +74,29 @@
       <option name="presentableId" value="Default" />
       <updated>1580506612150</updated>
       <workItem from="1580506613517" duration="3246000" />
+      <workItem from="1580843101761" duration="360000" />
     </task>
+    <task id="LOCAL-00001" summary="added Feb 4">
+      <created>1580843214583</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1580843214583</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added Feb 4" />
+    <option name="LAST_COMMIT_MESSAGE" value="added Feb 4" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="429" y="103" key="CommitChangelistDialog2" timestamp="1580843185427">
+    <state x="429" y="103" key="CommitChangelistDialog2" timestamp="1580843338995">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="429" y="103" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1580843185427" />
+    <state x="429" y="103" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1580843338995" />
   </component>
 </project>
