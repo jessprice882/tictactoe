@@ -8,18 +8,18 @@ class Board extends React.Component {
             squares: Array(9).fill(null),
             xIsNext: true
         };
-
     }
 
     handleClick(i) {
-    const squares = this.state.squares.slice();
-    if (calculateWinner(squares) || squares[i]) {
-    return;
-    }
-    squares[i] = this.state.xIsNext ? 'X' : 'O';
-    this.setState({
-    squares: squares,
-    xIsNext: !this.state.xIsNext });
+        const squares = this.state.squares.slice();
+        if (calculateWinner(squares) || squares[i]) {
+            return;
+        }
+        squares[i] = this.state.xIsNext ? 'X' : 'O';
+        this.setState({
+            squares: squares,
+            xIsNext: !this.state.xIsNext
+        });
 
     }
 
@@ -29,7 +29,6 @@ class Board extends React.Component {
                 value: this.state.squares[i],
                 onClick: () => this.handleClick(i)
             }));
-
 
     }
 
@@ -58,10 +57,14 @@ class Board extends React.Component {
                 React.createElement("div", {className: "board-row"},
                     this.renderSquare(6),
                     this.renderSquare(7),
-                    this.renderSquare(8))));
+                    this.renderSquare(8)),
 
-              //  React.createElement(type: "div", props: {className: "restart"}
-               // );
+
+
+                <div className="restartButton" onClick={() => window.location.reload(false)}>Restart Game</div> ));
+
+
+
 
 
 
@@ -88,6 +91,7 @@ function calculateWinner(squares) {
             return squares[a];
         }
     }
+
 
 
     return null;

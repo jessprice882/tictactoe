@@ -10,18 +10,6 @@ import React from 'react';
 
     }
 
-    //handleClick(i) {
-    //const squares = this.state.squares.slice();
-    //if (calculateWinner(squares) || squares[i]) {
-    //return;
-    //}
-    //squares[i] = this.state.xIsNext ? 'X' : 'O';
-    //this.setState({
-    //squares: squares,
-    //xIsNext: !this.state.xIsNext });
-
-    //}
-
     renderSquare(i) {
       return (
           React.createElement(Square, {
@@ -58,8 +46,6 @@ import React from 'react';
                   this.renderSquare(6),
                   this.renderSquare(7),
                   this.renderSquare(8))));
-
-
     }
   }
 
@@ -74,8 +60,6 @@ import React from 'react';
               React.createElement("div", {className: "game-info"},
                   React.createElement("div", null),
                   React.createElement("ol", null))));
-
-
     }
   }
 

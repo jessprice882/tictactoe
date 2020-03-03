@@ -2,17 +2,6 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -36,3 +25,25 @@
     transform: rotate(360deg);
   }
 }
+
+  .square {
+    background-color: lavender;
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+  }
+
+.restartButton {
+
+  background-color: lavender;
+  height: 40px;
+  width: 280px;
+  margin: 5px;
+  font-family: 'Rockwell';
+  font-size: large;
+  color: #420fc5;
+  text-align: center;
+  padding: 20px;
+  padding-top: 30px;
+}
+
